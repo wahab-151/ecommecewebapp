@@ -8,8 +8,8 @@ const sendOtpToEmail = (email, otp,path) => {
     const transporter = nodemailer.createTransport({
         service: 'Gmail', // Use the email service you prefer
         auth: {
-            user: 'wahabbaig0@gmail.com',
-            pass: 'bzrl ermj gelh rwhq',
+            user: 'insert your email',
+            pass: 'insert you auth key ',
         },
     });
     const mailOptions = {
